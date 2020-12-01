@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <title>HRDWR4U</title>
+    <link  rel="icon"   href="./favicon.ico" type="image/ico" />
+    <meta charset="UTF-8" />
+    <meta name="author" content="Alex López López" />
+    <meta
+      name="keywords"
+      content="inicio, bienvenida, hardware, pc, personal computer, informática, noticias, calidad, componentes, ordenadores, oficina, gaming, edición, 
+	comparaciones,virus, seguridad informática, proteccion"
+    />
+    <meta
+      name="description"
+      content="Esta página web está destinada ha ofrecer información y noticias sobre hardware para pc, desde componentes a builds de todos los 
+	precios y calidades."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body style="margin-left: 250px; margin-right: 250px; border: 1px solid black; padding: 10px;">
+    <!---->
+    <header>
+      <h1 style="text-align: right">
+        HRDWR4U
+        <img src="./logo.png" width="50" height="50" alt="Logo de la página web"/>
+      </h1>
+      <hr />
+      <h1>Bienvenido a HRDWR4U</h1>
+    </header>
+    <nav>
+      <div>
+        <table style="margin: auto;">
+          <tr>
+            <th ><a href="./seg_inf/Ransomware.html">Ransomware</a></th>
+            <th style="padding-left: 120px;"><a href="./art_hardware/rtx.html">RTX</a></th>
+            <th style="padding-left: 120px;"><a href="./build/lowcost.html">Build Low Cost</a></th>
+          </tr>
+        </table>
+    </div>
+    </nav>
+    <main>
+      <article>
+        <h2>Información sobre la página</h2>
+        <p>
+          Como ya he dicho bienvenidos a la página web HRDWR4U una página cuyo contenido se basará en articulos de 
+          informática, el apartado de hardware, desde los precios y comparaciones de componentes actuales a noticias 
+          y estadisticas de los componentes más nuevos, también tendrá un apartado relacionado con las "builds" o 
+          construcciones de un ordenador en función del uso, la calidad y el presupuesto para diferentes gustos y
+          exigencias.<br>
+          <br>
+          Además se incorporará un apartado relacionado con temas de interes general de seguridad informática, de este
+           modo ya no solamente podrás tener información para hacerte tu PC si no que además sabrás como evitar 
+           posibles hackeos y estar al día de los riesgos que se esconden tras Internet.<br>
+          <br>
+          En esta parte de la web estará situada la información principal además de un formulario de
+          peticiones para que vosotros podáis solicitar la información que más os interesa y sobre que temas.<br>
+          <br>
+          A continuación dejo un video explicativo de qué es el hardware para las personas más inexpertas o 
+          recién iniciadas en este mundo.
+        </p>
+        <div style="text-align: center;">
+          <video controls width="400">
+            <source src="./hardware.mp4" type="video/mp4">
+          </video>
+        </div>
+        <form>
+          <fieldset>
+            <legend>Peticiones</legend>
+            <label for="fecha">Introduzca la fecha:</label>
+            <input type="date" id="fecha" name="fecha"><br>
+            <label for="seccion">Seleccione un apartado: </label>
+            <select name="seccion" id="seccion">
+              <option value="seguridad">Seguridad Informática</option>
+              <option value="hardware">Hardware</option>
+              <option value="build">Builds PC</option>
+            </select><br>
+            <label for="peticion">Introduzca la petición: </label><br>
+            <textarea id="peticion" name="peticion" rows="10" cols="60">Inserte aquí el texto
+            </textarea><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+          </fieldset>
+        </form>
+      </article>
+    </main>
+    <footer>
+      <p><sub>Contacte conmigo a tavés del correo aleexlop73@gmail.com<br></sub><sub> Venancio Blanco - DAM1B</sub></p>
+    </footer>
+  </body>
+</html>
