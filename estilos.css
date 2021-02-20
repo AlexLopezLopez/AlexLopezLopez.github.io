@@ -4,7 +4,7 @@ body {
   padding: 10pt;
   border: black 10px solid;
   border-image-source: url("letra_seika.png");
-  border-image-slice: 70;
+  border-image-slice: 70%;
   border-image-repeat: repeat;
   background-image: url('fondo-abstracto-technologico-lineas-conectividad_1048-5570.jpg');
   background-size: cover;
