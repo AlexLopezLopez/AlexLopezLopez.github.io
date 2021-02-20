@@ -2,7 +2,7 @@
 <html lang="es-ES">
   <head>
     <title>HRDWR4U</title>
-    <link  rel="icon"   href="./favicon.ico" type="image/ico" />
+    <link rel="icon" href="./favicon.ico" type="image/ico" />
     <meta charset="UTF-8" />
     <meta name="author" content="Alex López López" />
     <meta
@@ -16,74 +16,97 @@
 	precios y calidades."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
   </head>
-  <body style="margin-left: 7vw; margin-right: 7vw; border: 1pt solid black; padding: 1vw;">
-    <header>
-      <h1 style="text-align: right">
-        HRDWR4U
-        <img src="./logo.png" width="50vw" height="50vw" alt="Logo de la página web"/>
-      </h1>
-      <hr />
-      <h1>Bienvenido a HRDWR4U</h1>
-    </header>
-    <nav>
-      <div>
-        <table style="margin: auto;">
-          <tr>
-            <th ><a href="./seg_inf/Ransomware.html">Ransomware</a></th>
-            <th style="padding-left: 2vw;"><a href="./art_hardware/rtx.html">RTX</a></th>
-            <th style="padding-left: 2vw;"><a href="./build/lowcost.html">Build Gama Media-Alta</a></th>
-          </tr>
-        </table>
-    </div>
-    </nav>
-    <main>
-      <article>
-        <h2>Información sobre la página</h2>
-        <p>
-          Como ya he dicho bienvenidos a la página web HRDWR4U una página cuyo contenido se basará en articulos de 
-          informática, el apartado de hardware, desde los precios y comparaciones de componentes actuales a noticias 
-          y estadisticas de los componentes más nuevos, también tendrá un apartado relacionado con las "builds" o 
-          construcciones de un ordenador en función del uso, la calidad y el presupuesto para diferentes gustos y
-          exigencias.<br>
-          <br>
-          Además se incorporará un apartado relacionado con temas de interes general de seguridad informática, de este
-           modo ya no solamente podrás tener información para hacerte tu PC si no que además sabrás como evitar 
-           posibles hackeos y estar al día de los riesgos que se esconden tras Internet.<br>
-          <br>
-          En esta parte de la web estará situada la información principal además de un formulario de
-          peticiones para que vosotros podáis solicitar la información que más os interesa y sobre que temas.<br>
-          <br>
-          A continuación dejo un video explicativo de qué es el hardware para las personas más inexpertas o 
-          recién iniciadas en este mundo.
-        </p>
-        <div style="text-align: center;">
-          <video width="340vw" height="200vw" controls>
-            <source src="hardware.mp4" type="video/mp4">
-          </video>
+  <body>
+    <div id="contenido">
+      <header>
+        <h1 style="text-align: right">
+          HRDWR4U
+          <img
+            src="./logo.png"
+            width="50vw"
+            height="50vw"
+            alt="Logo de la página web"
+          />
+        </h1>
+        <hr />
+        <h1>Bienvenido a HRDWR4U</h1>
+      </header>
+      <nav>
+        <div>
+          <table style="margin: auto">
+            <tr>
+              <th><a href="./seg_inf/Ransomware.html">Ransomware</a></th>
+              <th style="padding-left: 2vw">
+                <a href="./art_hardware/rtx.html">RTX</a>
+              </th>
+              <th style="padding-left: 2vw">
+                <a href="./build/lowcost.html">Build Gama Media-Alta</a>
+              </th>
+            </tr>
+          </table>
         </div>
-        <form>
-          <fieldset style="margin-left: 2vw;margin-right: 2vw;">
-            <legend>Peticiones</legend>
-            <label for="fecha">Introduzca la fecha:</label>
-            <input type="date" id="fecha" name="fecha"><br>
-            <label for="seccion">Seleccione un apartado: </label>
-            <select name="seccion" id="seccion">
-              <ovwion value="seguridad">Seguridad Informática</ovwion>
-              <ovwion value="hardware">Hardware</ovwion>
-              <ovwion value="build">Builds PC</ovwion>
-            </select><br>
-            <label for="peticion">Introduzca la petición: </label><br>
-            <textarea id="peticion" name="peticion" rows="10" cols="35">Inserte aquí el texto
-            </textarea><br>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Restablecer">
-          </fieldset>
-        </form>
-      </article>
-    </main>
-    <footer>
-      <p><sub>Contacte conmigo a tavés del correo aleexlop73@gmail.com<br></sub><sub> Venancio Blanco - DAM1B</sub></p>
-    </footer>
+      </nav>
+      <main>
+        <article>
+          <h2>Información sobre la página</h2>
+          <p>
+            Como ya he dicho bienvenidos a la página web HRDWR4U una página cuyo
+            contenido se basará en articulos de informática, el apartado de
+            hardware, desde los precios y comparaciones de componentes actuales
+            a noticias y estadisticas de los componentes más nuevos, también
+            tendrá un apartado relacionado con las "builds" o construcciones de
+            un ordenador en función del uso, la calidad y el presupuesto para
+            diferentes gustos y exigencias.<br />
+            <br />
+            Además se incorporará un apartado relacionado con temas de interes
+            general de seguridad informática, de este modo ya no solamente
+            podrás tener información para hacerte tu PC si no que además sabrás
+            como evitar posibles hackeos y estar al día de los riesgos que se
+            esconden tras Internet.<br />
+            <br />
+            En esta parte de la web estará situada la información principal
+            además de un formulario de peticiones para que vosotros podáis
+            solicitar la información que más os interesa y sobre que temas.<br />
+            <br />
+            A continuación dejo un video explicativo de qué es el hardware para
+            las personas más inexpertas o recién iniciadas en este mundo.
+          </p>
+          <div style="text-align: center">
+            <video width="340vw" height="200vw" controls>
+              <source src="hardware.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <form>
+            <fieldset style="margin-left: 2vw; margin-right: 2vw">
+              <legend>Peticiones</legend>
+              <label for="fecha">Introduzca la fecha:</label>
+              <input type="date" id="fecha" name="fecha" /><br />
+              <label for="seccion">Seleccione un apartado: </label>
+              <select name="seccion" id="seccion">
+                <ovwion value="seguridad">Seguridad Informática</ovwion>
+                <ovwion value="hardware">Hardware</ovwion>
+                <ovwion value="build">Builds PC</ovwion></select
+              ><br />
+              <label for="peticion">Introduzca la petición: </label><br />
+              <textarea id="peticion" name="peticion" rows="10" cols="35">
+Inserte aquí el texto
+            </textarea
+              ><br />
+              <input type="submit" value="Enviar" />
+              <input type="reset" value="Restablecer" />
+            </fieldset>
+          </form>
+        </article>
+      </main>
+      <footer>
+        <p>
+          <sub
+            >Contacte conmigo a tavés del correo aleexlop73@gmail.com<br /></sub
+          ><sub> Venancio Blanco - DAM1B</sub>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
