@@ -27,22 +27,23 @@ nav ul{
 }
 nav ul li{
   display: flex;
-  flex: 33%;
+  flex: 33.3%;
   padding: 10px;
 }
 nav ul li a:link, nav ul li a:visited{
   background-color: #0fa7ff;
   color: white;
-  padding-bottom: 3px;
+  padding: 14px 14px;
+  padding-bottom: 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 nav ul li a:hover, nav ul li a:active{
-  background-color: #0fa7ff;
+  background-color: #0988d1;
   color: white;
-  padding: 5px;
-  padding-bottom: 3px;
+  padding: 14px 14px;
+  padding-bottom: 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
