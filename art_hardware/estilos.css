@@ -1,0 +1,75 @@
+body {
+  margin-left: 250pt;
+  margin-right: 250pt;
+  background-image: url('../fondo-abstracto-technologico-lineas-conectividad_1048-5570.jpg');
+  background-size: cover;
+}
+#contenido{
+  background-color: rgb(2, 11, 22);
+  opacity: 90%;
+  color: white;
+  border: #0fa7ff 10px solid;
+  border-radius:5%;
+  border-style:double;
+}
+main h2{
+  font-family: Patua One;
+  text-align: center;
+  font-size: xx-large;
+  text-shadow: 2px 2px #0fa7ff;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  padding-right: 25px;
+}
+header h1{
+  font-family: Patua One;
+  text-align: left;
+  text-shadow: 2px 2px #ff830f;
+}
+nav ul{
+  background-color: #ff830f;
+  display: flex;
+  flex-direction: row;
+  flex: 100%;
+  margin: 0%;
+  list-style: none;
+}
+nav ul li{
+  display: flex;
+  flex: 33.3%;
+  padding: 10px;
+}
+nav ul li a:link, nav ul li a:visited{
+  background-color: #ff830f;
+  color: black;
+  font-family: Patua One;
+  font-weight: bold;
+  padding: 14px 14px;
+  padding-bottom: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+nav ul li a:hover, nav ul li a:active{
+  background-color: #0fa7ff;
+  opacity: 30%;
+  font-family: Patua One;
+  padding: 14px 14px;
+  padding-bottom: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+main{
+  margin: 2%;
+}
+main p{
+  font-family: B612 Mono;
+  font-size: small;
+}
+footer{
+  margin: 2%;
+}
