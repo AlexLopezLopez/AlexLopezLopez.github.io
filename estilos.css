@@ -9,7 +9,14 @@ body {
   opacity: 90%;
   color: lightblue;
   border: transparent 10px solid;
+  border-radius:5%;
   border-image-source: url("letra_seika.png");
   border-image-slice: 100%;
   border-image-repeat: repeat;
+}
+header{
+  display: flex;
+}
+nav{
+  display: flex;
 }
