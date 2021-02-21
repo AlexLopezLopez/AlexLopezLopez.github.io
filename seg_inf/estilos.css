@@ -8,7 +8,7 @@ body {
   background-color: rgb(2, 11, 22);
   opacity: 90%;
   color: white;
-  border: #0fa7ff 10px solid;
+  border: #0fa7ff 0.7vw solid;
   border-radius:5%;
   border-style:double;
 }
@@ -26,8 +26,8 @@ main h3{
 header{
   display: flex;
   flex-direction: row;
-  padding-left: 15px;
-  padding-right: 25px;
+  padding-left: 7%;
+  padding-right: 10%;
 }
 header h1{
   font-family: Patua One;
@@ -45,15 +45,15 @@ nav ul{
 nav ul li{
   display: flex;
   flex: 33.3%;
-  padding: 10px;
+  padding: 0.7vw;
 }
 nav ul li a:link, nav ul li a:visited{
   background-color: #ff830f;
   color: black;
   font-family: Patua One;
   font-weight: bold;
-  padding: 14px 14px;
-  padding-bottom: 5px;
+  padding: 0.7vw 0.9vw;
+  padding-bottom: 0.5vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -62,8 +62,8 @@ nav ul li a:hover, nav ul li a:active{
   background-color: #0fa7ff;
   opacity: 30%;
   font-family: Patua One;
-  padding: 14px 14px;
-  padding-bottom: 5px;
+  padding: 0.7vw 0.9vw;
+  padding-bottom: 0.5vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
