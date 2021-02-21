@@ -8,15 +8,42 @@ body {
   background-color: black;
   opacity: 90%;
   color: lightblue;
-  border: transparent 10px solid;
+  border: #0fa7ff 10px solid;
   border-radius:5%;
-  border-image-source: url("letra_seika.png");
-  border-image-slice: 100%;
-  border-image-repeat: repeat;
+  border-style:double;
 }
 header{
   display: flex;
+  flex-direction: row;
+  text-align: center;
 }
-nav{
+nav ul{
+  background-color: #0fa7ff;
   display: flex;
+  flex-direction: row;
+  flex: 100%;
+  margin: 0%;
+  list-style: none;
+}
+nav ul li{
+  display: flex;
+  flex: 33%;
+  padding: 10px;
+}
+nav ul li a:link, nav ul li a:visited{
+  background-color: #0fa7ff;
+  color: white;
+  padding-bottom: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+nav ul li a:hover, nav ul li a:active{
+  background-color: #0fa7ff;
+  color: white;
+  padding: 5px;
+  padding-bottom: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
