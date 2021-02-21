@@ -1,15 +1,16 @@
 body {
   margin-left: 250pt;
   margin-right: 250pt;
-  padding: 10pt;
-  border: black 10px solid;
-  border-image-source: url("letra_seika.png");
-  border-image-slice: 30;
-  border-image-repeat: round;
   background-image: url('fondo-abstracto-technologico-lineas-conectividad_1048-5570.jpg');
   background-size: cover;
+  
 }
 #contenido{
   background-color: black;
+  opacity: 90%;
   color: lightblue;
+  border: transparent 10px solid;
+  border-image-source: url("letra_seika.png");
+  border-image-slice: 100%;
+  border-image-repeat: repeat;
 }
