@@ -1,12 +1,12 @@
 body {
-  margin-left: 250pt;
-  margin-right: 250pt;
+  margin-left: 15%;
+  margin-right: 15%;
   background-image: url('../fondo-abstracto-technologico-lineas-conectividad_1048-5570.jpg');
   background-size: cover;
 }
 #contenido{
   background-color: rgb(2, 11, 22);
-  opacity: 90%;
+  opacity: 80%;
   color: white;
   border: #0fa7ff 0.7vw solid;
   border-radius:5%;
