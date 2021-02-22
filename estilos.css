@@ -6,7 +6,7 @@ body {
   background-color: rgb(2, 11, 22);
   opacity: 80%;
   color: white;
-  border: #0fa7ff 0.7em solid;
+  border: #0fa7ff 0.7vw solid;
   border-radius:5%;
   border-style: double;
   margin-left: 15%;
@@ -16,12 +16,12 @@ body {
 main h2{
   font-family: Patua One;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2.5vw;
   text-shadow: 2px 2px #0fa7ff;
 }
 main h3{
   font-family: Patua One;
-  font-size: 1.5em;
+  font-size: 1.5vw;
   text-shadow: 2px 2px #ff830f;
 }
 header{
@@ -32,7 +32,7 @@ header{
 }
 header h1{
   font-family: Patua One;
-  font-size: 3em;
+  font-size: 3vw;
   text-align: left;
   text-shadow: 2px 2px #ff830f;
 }
@@ -47,14 +47,14 @@ nav ul{
 nav ul li{
   display: flex;
   flex: 33.3%;
-  padding: 0.7em;
+  padding: 0.7vw;
 }
 nav ul li a:link, nav ul li a:visited{
   background-color: #ff830f;
   color: black;
   font-family: Patua One;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1vw;
   padding: 5% 6%;
   padding-bottom: 2%;
   text-align: center;
@@ -65,7 +65,7 @@ nav ul li a:hover, nav ul li a:active{
   background-color: #0fa7ff;
   opacity: 30%;
   font-family: Patua One;
-  font-size: 1em;
+  font-size: 1vw;
   padding: 5% 6%;
   padding-bottom: 2%;
   text-align: center;
@@ -77,21 +77,21 @@ main{
 }
 main p{
   font-family: B612 Mono;
-  font-size: 0.9em;
+  font-size: 0.9vw;
 }
 footer{
   margin: 2%;
 }
 textarea{
   width: 100%;
-  height: 14em;
+  height: 14vw;
   box-sizing: border-box;
-  font-size: 0.9em;
+  font-size: 0.9vw;
   border-radius: 5%;
 }
 form{
   font-family: B612 Mono;
-  font-size: 0.9em;
+  font-size: 0.9vw;
 }
 fieldset{
   border-style: none;
@@ -100,36 +100,36 @@ fieldset{
 }
 input[type=date]{
   width:20%;
-  height: 2em;
+  height: 2vw;
   border-style: none;
   background-color: #0fa7ff77;
   color: white;
   font-weight: bold;
   font-family: B612 Mono;
-  font-size: 0.9em;
+  font-size: 0.9vw;
   text-align: center;
   border-radius: 15%;
 }
 select{
   width:26%;
-  height: 2em;
+  height: 2vw;
   border-style: none;
   background-color: #ff830f6b;
   font-family: B612 Mono;
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 0.9vw;
   text-align: center;
   border-radius: 15%;
 }
 option{
   font-family: B612 Mono;
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 0.9vw;
   text-align: center;
 }
 legend{
   font-family: Patua One;
-  font-size: 1.5em;
+  font-size: 1.5vw;
   text-shadow: 2px 2px #0fa7ff; 
 }
 input[type=submit]{
@@ -141,5 +141,5 @@ input[type=reset]{
 footer p sub{
   font-family: B612 Mono;
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 0.9vw;
 }
