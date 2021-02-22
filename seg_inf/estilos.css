@@ -15,12 +15,12 @@ body {
 main h2{
   font-family: Patua One;
   text-align: center;
-  font-size: xx-large;
+  font-size: 2.5vw;
   text-shadow: 2px 2px #0fa7ff;
 }
 main h3{
   font-family: Patua One;
-  font-size: x-large;
+  font-size: 1.5vw;
   text-shadow: 2px 2px #ff830f;
 }
 header{
@@ -76,7 +76,7 @@ main{
 }
 main p{
   font-family: B612 Mono;
-  font-size: small;
+  font-size: 0.9vw;
 }
 footer{
   margin: 2%;
