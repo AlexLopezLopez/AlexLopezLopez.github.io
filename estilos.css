@@ -73,17 +73,16 @@ nav ul{
   list-style: none;
   text-align: center;
   padding-right: 5%;
+  padding: 1.5%;
 }
 #uno{
   grid-column: 1;
 }
 #dos{
   grid-column: 2;
-
 }
 #tres{
   grid-column: 3;
-
 }
 nav ul li a:link, nav ul li a:visited{
   background-color: #ff830f;
