@@ -1,8 +1,17 @@
 body {
+  display: grid;
   background-image: url('../fondo-abstracto-technologico-lineas-conectividad_1048-5570.jpg');
   background-size:cover;
+  grid-template-areas: '15% content content content content 15';
 }
 #contenido{
+  display: grid;
+  grid-template-areas:'cabecera cabecera cabecera cabecera'
+                      'navegacion navegacion navegacion navegacion'
+                      'texto texto texto lateral'
+                      'texto texto texto lateral'
+                      'pie pie pie pie';
+  grid-area: content;
   background-color: rgb(2, 11, 22);
   opacity: 80%;
   color: white;
@@ -12,6 +21,15 @@ body {
   margin-left: 15%;
   margin-right: 15%;
   margin-bottom: 0%;
+}
+main{
+  grid-area: texto;
+}
+article p{
+  grid-area: texto;
+}
+aside{
+  grid-area: lateral;
 }
 main h2{
   font-family: Patua One;
@@ -25,29 +43,53 @@ main h3{
   text-shadow: 2px 2px #ff830f;
 }
 header{
-  display: flex;
-  flex-direction: row;
-  padding-left: 7%;
-  margin-right: 10%;
+  display: grid;
+  grid-area: cabecera;
+  grid-template-columns: '25% 25% 25% 25%';
 }
-header h1{
+h1#titulo{
+  grid-column: 1;
+  font-family: Patua One;
+  font-size: 3vw;
+  text-align: right;
+  text-shadow: 2px 2px #ff830f;
+}
+h1#bienvenida{
+  grid-column: 4;
   font-family: Patua One;
   font-size: 3vw;
   text-align: left;
   text-shadow: 2px 2px #ff830f;
 }
-nav ul{
-  background-color: #ff830f;
-  display: flex;
-  flex-direction: row;
-  flex: 100%;
-  margin: 0%;
-  list-style: none;
+img#logo{
+  grid-column: 2;
+  text-align: center;
+  margin-left: 5%;
 }
-nav ul li{
-  display: flex;
-  flex: 33.3%;
-  padding: 0.7vw;
+header hr{
+  grid-column: 3;
+}
+nav{
+  grid-area: navegacion;
+}
+nav ul{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  background-color: #ff830f;
+  list-style: none;
+  text-align: center;
+  padding-right: 5%;
+}
+#uno{
+  grid-column: 1;
+}
+#dos{
+  grid-column: 2;
+
+}
+#tres{
+  grid-column: 3;
+
 }
 nav ul li a:link, nav ul li a:visited{
   background-color: #ff830f;
@@ -73,13 +115,15 @@ nav ul li a:hover, nav ul li a:active{
   display: inline-block;
 }
 main{
-  margin: 2%;
+  grid-area: texto;
+  padding: 2%;
 }
 main p{
   font-family: B612 Mono;
   font-size: 0.9vw;
 }
 footer{
+  grid-area: 5/2/5/5;
   margin: 2%;
 }
 textarea{
